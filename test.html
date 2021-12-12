@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>开始使用 layui</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg">
+    <div class="layui-container">
+        <div class="layui-row layui-col-space20">
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+                <div class="box1"></div>
+            </div>
+            <div class="layui-col-sm12 layui-col-md4 layui-col-lg3">
+                <div class="box2"></div>
+            </div>
+            <div class="layui-col-sm12 layui-col-md4 layui-col-lg3">
+                <div class="box3"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="position box3 yellow row-4 ">
+        <img src="img/app-1.png" alt="" style="margin-top: 60px;">
+        <button onclick="notice">button</button>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="layui/layui.js"></script>
+    <script src="layer/layer.js"></script>
+    <script>
+        function notice() {
+            layer.open({
+                type: 1,
+                title: false,
+                closeBtn: false,
+                area: '300px;',
+                shade: 0.8,
+                id: 'LAY_layuipro',
+                btn: ['火速围观', '残忍拒绝'],
+                btnAlign: 'c',
+                moveType: 1,
+                content: '<div style="padding: 50px; line-height: 22px; background-color: #393D49; color: #fff; font-weight: 300;">你知道吗？亲！<br>layer ≠ layui<br><br> layer 只是作为 layui 的一个弹层模块，由于其用户基数较大，所以常常会有人以为 layui 是 <del>layerui</del><br><br>layer 虽然已被 Layui 收编为内置的弹层模块，但仍然会作为一个独立组件全力维护、升级 ^_^</div>',
+                success: function(layero) {
+                    var btn = layero.find('.layui-layer-btn');
+                    btn.find('.layui-layer-btn0').attr({
+                        href: 'http://www.layui.com/',
+                        target: '_blank'
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

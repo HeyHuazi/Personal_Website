@@ -1,3 +1,41 @@
+/* 引入字体 */
+
+@font-face {
+    font-family: 'HarmonyOS_Sans_SC_Light';
+    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf');
+}
+
+@font-face {
+    font-family: 'HarmonyOS_Sans_SC_Regular';
+    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf');
+}
+
+@font-face {
+    font-family: 'HarmonyOS_Sans_SC_Medium';
+    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.ttf');
+}
+
+@font-face {
+    font-family: 'HarmonyOS_Sans_SC_Bold';
+    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Bold.ttf');
+}
+
+.text-light {
+    font-family: HarmonyOS_Sans_SC_Light;
+}
+
+.text-regular {
+    font-family: HarmonyOS_Sans_SC_Regular;
+}
+
+.text-medium {
+    font-family: HarmonyOS_Sans_SC_Medium;
+}
+
+.text-bold {
+    font-family: HarmonyOS_Sans_SC_Bold;
+}
+
 * {
     margin: 0;
     padding: 0;

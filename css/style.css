@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: 'HarmonyOS_Sans_SC_Light';
-    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf');
+    src: url('http://file2.huazi.space/HarmonyOS_Sans_SC_Light.ttf');
 }
 
 @font-face {
     font-family: 'HarmonyOS_Sans_SC_Regular';
-    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf');
+    src: url('http://file2.huazi.space/HarmonyOS_Sans_SC_Regular.ttf');
 }
 
 @font-face {
     font-family: 'HarmonyOS_Sans_SC_Medium';
-    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.ttf');
+    src: url('http://file2.huazi.space/HarmonyOS_Sans_SC_Medium.ttf');
 }
 
 @font-face {
     font-family: 'HarmonyOS_Sans_SC_Bold';
-    src: url('/font/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Bold.ttf');
+    src: url('http://file2.huazi.space/HarmonyOS_Sans_SC_Bold.ttf');
 }
 
 .text-light {
@@ -196,7 +196,6 @@
 }
 
 .text {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0 30px;
 }

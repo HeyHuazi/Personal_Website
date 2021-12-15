@@ -1,4 +1,2 @@
-# huazi.space-2.0
-
-#### 介绍
-huazi.space 2.0 简约风格
+# Huazi.space-2.0
+![Img text](https://file2.huazi.space/web_Screenshot.png)

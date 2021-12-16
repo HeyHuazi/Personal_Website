@@ -359,7 +359,7 @@ p {
 
 /* box响应式 */
 
-@media (max-width: 970px) {
+@media (max-width: 1195px) {
     .container {
         width: 895px;
         margin: 0 auto;
@@ -423,7 +423,7 @@ p {
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 890px) {
     .container {
         width: 590px;
         margin: 0 auto;

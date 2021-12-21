@@ -319,6 +319,18 @@ p {
     margin: 12px;
 }
 
+.img_outer>img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
+
+.img_outer>img:hover {
+    filter: none;
+}
+
 
 /* foot */
 

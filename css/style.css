@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'HarmonyOS_Sans_SC_Medium';
+    font-family: 'HarmonyOS_Sans_SC_ Medium';
     src: url('https://file2.huazi.space/HarmonyOS_Sans_SC_Medium.ttf');
 }
 
@@ -194,6 +194,7 @@
 .text {
     font-size: 16px;
     margin: 0 30px;
+    line-height: 200%;
 }
 
 
@@ -320,15 +321,15 @@ p {
 }
 
 .img_outer>img {
+    filter: none;
+}
+
+.img_outer>img:hover {
     width: 60px;
     height: 60px;
     cursor: pointer;
     filter: grayscale(100%);
     transition: all 0.2s;
-}
-
-.img_outer>img:hover {
-    filter: none;
 }
 
 

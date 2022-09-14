@@ -1,39 +1,39 @@
 /* 引入字体 */
 
 @font-face {
-    font-family: 'HarmonyOS_Sans_SC_Light';
-    src: url('https://file2.huazi.space/HarmonyOS_Sans_SC_Light.ttf');
+    font-family: 'MiSans-Light';
+    src: url('font/MiSans/MiSans-Light.ttf');
 }
 
 @font-face {
-    font-family: 'HarmonyOS_Sans_SC_Regular';
-    src: url('https://file2.huazi.space/HarmonyOS_Sans_SC_Regular.ttf');
+    font-family: 'MiSans-Regular';
+    src: url('font/MiSans/MiSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'HarmonyOS_Sans_SC_ Medium';
-    src: url('https://file2.huazi.space/HarmonyOS_Sans_SC_Medium.ttf');
+    font-family: 'MiSans-Medium';
+    src: url('font/MiSans/MiSans-Mediumt.ttf');
 }
 
 @font-face {
-    font-family: 'HarmonyOS_Sans_SC_Bold';
-    src: url('https://file2.huazi.space/HarmonyOS_Sans_SC_Bold.ttf');
+    font-family: 'MiSans-Bold';
+    src: url('font/MiSans/MiSans-Bold.ttf');
 }
 
 .text-light {
-    font-family: HarmonyOS_Sans_SC_Light;
+    font-family: MiSans-Light;
 }
 
 .text-regular {
-    font-family: HarmonyOS_Sans_SC_Regular;
+    font-family: MiSans-Regular;
 }
 
 .text-medium {
-    font-family: HarmonyOS_Sans_SC_Medium;
+    font-family: MiSans-Medium;
 }
 
 .text-bold {
-    font-family: HarmonyOS_Sans_SC_Bold;
+    font-family: MiSans-Bold;
 }
 
 * {
@@ -192,13 +192,40 @@
 }
 
 .text {
+    position: absolute;
     font-size: 16px;
-    margin: 0 30px;
+    margin: 112px 0 30px 30px;
     line-height: 200%;
 }
 
 
 /* button */
+
+.homepage{
+    position: relative;
+    margin-top: -160px;
+    margin-left: 432px;
+    width: 128px;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+.homepage:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border: 2px solid rgb(0, 0, 0 ,0.2);
+    transition-timing-function: ease-in;
+    transition-delay: initial;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px, rgba(255, 255, 255, 0.5) 0px 0px 0px 10px;
+}
+.homepage-link{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
 
 .btn {
     position: absolute;
